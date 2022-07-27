@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace Assignment_01
 {
-    class Program4
+    class Program7
     {
-        public int[] table(int a)
+        public bool PositiveNegative(int n1, int n2)
         {
-            int[] arr = new int[11];
-            for(int i = 1; i <= 10; i++)
+            if((n1>=0 || n2>=0) && (n1<0 || n2 < 0))
             {
-                arr[i] = i * a;
+                return true;
             }
-
-            return arr;
+            return false;
         }
     }
 }

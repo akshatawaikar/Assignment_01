@@ -28,7 +28,7 @@ namespace Assignment_01
 
         public double div(int a, int b)
         {
-            double res = a / b;
+            double res = (double)a / (double)b;
             return res;
         }
     }
