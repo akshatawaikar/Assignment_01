@@ -8,11 +8,10 @@ namespace Assignment_01
 {
     class Program13
     {
-        public int asciiValue(Char a)
+        public int ascii(char a)
         {
-            int v;
-            v = (int)a;
-            return v;
+            int i = (int)a;
+            return i;
         }
     }
 }

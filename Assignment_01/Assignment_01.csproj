@@ -48,6 +48,8 @@
     <Compile Include="Program11.cs" />
     <Compile Include="Program12.cs" />
     <Compile Include="Program13.cs" />
+    <Compile Include="Program14.cs" />
+    <Compile Include="Program15.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Program3.cs" />
     <Compile Include="Program4.cs" />

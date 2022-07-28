@@ -10,7 +10,7 @@ namespace Assignment_01
     {
         static void Main(string[] args)
         {
-            //Prog1
+            /*//Prog1
             Console.WriteLine("---------Program 1----------- ");
             Console.WriteLine("Hello!");
             Console.WriteLine("Akshata Waikar");
@@ -136,28 +136,34 @@ namespace Assignment_01
             else
                 Console.WriteLine("It entered string is not a palindrome");
             Console.WriteLine();
-
+*/
             //Prog13
             Console.WriteLine("---------Program 13----------- ");
             Console.WriteLine("Enter the character to find the ascii value");
-            int val = Console.Read();
-            Console.WriteLine("ascii value is {0}",val);
+            char val = Convert.ToChar(Console.ReadLine());
+            Program13 p13 = new Program13();
+            Console.WriteLine("ascii value is {0}", p13.ascii(val));
 
 
             //Prog14
+
+
             Console.WriteLine("---------Program 14----------- ");
             Console.WriteLine("Enter the integer to convert it to a string");
-            int intVal = Convert.ToInt32(Console.ReadLine());
-            string str1 = intVal.ToString();
-
+            int i1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the string to convert it to a integer");
-            string int1 = Console.ReadLine();
-            int int2 = Convert.ToInt32(int1);
-            Console.WriteLine("Converted string is {0} and Converted integer is {1}", str1,int2);
+            string s1 = Console.ReadLine();
+            Program14 p14 = new Program14();
+            p14.intToString(i1,s1);
+          
 
             //Prog15
 
-
+            Console.WriteLine("---------Program 15----------- ");
+            Console.WriteLine("Enter the string");
+            string sc = Console.ReadLine();
+            Program15 p15 = new Program15();
+            Console.WriteLine("The cleaned string with pure Alphabets is : {0}", p15.removeNonLetters(sc));
 
 
 
