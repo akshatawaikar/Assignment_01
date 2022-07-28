@@ -33,7 +33,7 @@ namespace Assignment_01
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter number 2 for all Mathematical Operations : ");
             int num2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Addition is {0} \n Substraction is {1} \n Multiplication is {2} \n Division is {3}",p3.add(num1,num2),p3.sub(num1,num2),p3.mul(num1,num2),p3.div(num1,num2));
+            Console.WriteLine("Addition is {0} \n Substraction is {1} \n Multiplication is {2} \n Division is {3}", p3.add(num1, num2), p3.sub(num1, num2), p3.mul(num1, num2), p3.div(num1, num2));
             Console.WriteLine();
 
             //Prog4 - Multiplication Table
@@ -61,7 +61,7 @@ namespace Assignment_01
             //Prog6 : Swap front and back characters of a string
             Console.WriteLine("---------Program 6----------- ");
             Program6 p6 = new Program6();
-            Console.WriteLine(p6.changeFirstAndLast("Waikar")); 
+            Console.WriteLine(p6.changeFirstAndLast("Waikar"));
             Console.WriteLine();
 
             //Prog7
@@ -71,7 +71,7 @@ namespace Assignment_01
             int n_1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter second positive or negative number : ");
             int n_2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(p7.PositiveNegative(n_1,n_2));
+            Console.WriteLine(p7.PositiveNegative(n_1, n_2));
             Console.WriteLine();
 
             //Prog8
@@ -79,7 +79,7 @@ namespace Assignment_01
             Program8 p8 = new Program8();
             Console.WriteLine("Enter the string to check the longest string");
             string str = Console.ReadLine();
-            Console.WriteLine("Longest String in the given string is "+p8.LongestWord(str));
+            Console.WriteLine("Longest String in the given string is " + p8.LongestWord(str));
 
             //Prog9
             Console.WriteLine("---------Program 9-----------");
@@ -93,7 +93,7 @@ namespace Assignment_01
             Console.WriteLine("---------Program 10----------- ");
             Console.WriteLine("Enter the array to be rotated");
             int[] arr = new int[3];
-            for(int i =0; i < 3; i++)
+            for (int i = 0; i < 3; i++)
             {
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
@@ -125,6 +125,44 @@ namespace Assignment_01
             Console.WriteLine();
 
             //Prog12
+            Console.WriteLine("---------Program 12----------- ");
+            Console.WriteLine("Enter the string to verify if its a palindrome string or not");
+            string s = Console.ReadLine();
+            Program12 p12 = new Program12();
+            if (p12.palindrome(s))
+            {
+                Console.WriteLine("It entered string is a palindrome");
+            }
+            else
+                Console.WriteLine("It entered string is not a palindrome");
+            Console.WriteLine();
+
+            //Prog13
+            Console.WriteLine("---------Program 13----------- ");
+            Console.WriteLine("Enter the character to find the ascii value");
+            int val = Console.Read();
+            Console.WriteLine("ascii value is {0}",val);
+
+
+            //Prog14
+            Console.WriteLine("---------Program 14----------- ");
+            Console.WriteLine("Enter the integer to convert it to a string");
+            int intVal = Convert.ToInt32(Console.ReadLine());
+            string str1 = intVal.ToString();
+
+            Console.WriteLine("Enter the string to convert it to a integer");
+            string int1 = Console.ReadLine();
+            int int2 = Convert.ToInt32(int1);
+            Console.WriteLine("Converted string is {0} and Converted integer is {1}", str1,int2);
+
+            //Prog15
+
+
+
+
+
+
+
 
 
 
